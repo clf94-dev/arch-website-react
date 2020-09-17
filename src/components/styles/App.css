@@ -157,6 +157,28 @@ body {
 .intro-cont .text-col p {
   font-size: 15px;
   padding-right: 25%;
+  padding-bottom: 40px;
+}
+
+.intro-cont .text-col button {
+  width: 250px;
+  height: 60px;
+  background-color: #000000;
+  color: white;
+  align-items: center !important;
+  border: 1px solid black;
+}
+
+.intro-cont .text-col button img {
+  padding-top: 5px;
+  padding-left: 20px;
+  height: 20px;
+}
+
+.intro-cont .text-col button:hover {
+  background-color: white;
+  color: #000000;
+  border-color: #000000;
 }
 
 .intro-cont img {
@@ -209,4 +231,42 @@ body {
 
 .welcome-cont .img-col {
   text-align: end;
+}
+
+.team-cont {
+  padding: 5% 7%;
+}
+
+.team-cont .team-text {
+  position: absolute;
+  padding: 10% 15%;
+}
+
+.team-cont .team-text h3 {
+  font-size: 56px;
+  font-weight: 300;
+  color: white;
+  padding-right: 60%;
+  padding-bottom: 30px;
+}
+
+.team-cont .team-text button {
+  width: 250px;
+  height: 60px;
+  background-color: #000000;
+  color: white;
+  align-items: center !important;
+  border: 1px solid black;
+}
+
+.team-cont .team-text button img {
+  padding-top: 5px;
+  padding-left: 20px;
+  height: 20px;
+}
+
+.team-cont .team-text button:hover {
+  background-color: white;
+  color: #000000;
+  border-color: #000000;
 }
