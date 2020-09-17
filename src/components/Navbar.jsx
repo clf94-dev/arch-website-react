@@ -25,9 +25,11 @@ function Navbar() {
                     className={click
                     ? 'nav-menu active'
                     : 'nav-menu'}>
-                    <li className="nav-item">Portfolio</li>
-                    <li className="nav-item">About Us</li>
-                    <li className="nav-item">Careers</li>
+                    <li className="nav-item">
+                        
+                        <Link to='/portfolio' className='nav-links' > Portfolio </Link></li>
+                    <li className="nav-item"><Link to='/about' className='nav-links' >About Us</Link></li>
+                    <li className="nav-item"><Link to='/careers' className='nav-links' >Careers</Link></li>
 
                 </ul>
             </div>
