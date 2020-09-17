@@ -29,14 +29,16 @@ body {
         justify-content: center;
         height: 120px;
         max-width: 1600px;
-        img {
-            align-self: start !important;
-            height: 50%;
+        .navbar-logo {
             text-align: start;
             margin-left: 20px;
             margin-top: 30px;
             cursor: pointer;
             align-items: center;
+            img {
+                align-self: start !important;
+                height: 50%;
+            }
         }
         .menu-icon {
             display: none;

@@ -24,14 +24,17 @@ body {
   max-width: 1600px;
 }
 
-.navbar .navbar-cont img {
-  align-self: start !important;
-  height: 50%;
+.navbar .navbar-cont .navbar-logo {
   text-align: start;
   margin-left: 20px;
   margin-top: 30px;
   cursor: pointer;
   align-items: center;
+}
+
+.navbar .navbar-cont .navbar-logo img {
+  align-self: start !important;
+  height: 50%;
 }
 
 .navbar .navbar-cont .menu-icon {

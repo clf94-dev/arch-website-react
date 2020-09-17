@@ -12,7 +12,9 @@ function Navbar() {
     return (
         <nav className="navbar">
             <div className="navbar-cont">
+                <Link to='/' className='navbar-logo'>
                 <img src={Logo} alt="arch" />
+                </Link>
                 <div className="menu-icon" onClick={handleClick}>
                     <i
                         className={click
