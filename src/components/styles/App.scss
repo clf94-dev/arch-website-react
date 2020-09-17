@@ -1,0 +1,14 @@
+$black: #000000;
+$dark-grey:#707070;
+$medium-grey: #7D828F;
+$light-grey:#C8CCD8;
+$very-light-grey:#EEEFF4;
+$red:#DF5656;
+$font: 'Spartan',
+sans-serif;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: $font;
+}
