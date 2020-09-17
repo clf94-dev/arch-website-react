@@ -130,3 +130,51 @@ body {
   cursor: pointer;
   color: #000000 !important;
 }
+
+.intro-cont {
+  padding: 5% 7%;
+}
+
+.intro-cont .text-col {
+  position: absolute;
+  top: 28vw;
+  left: 20%;
+  padding-right: 30%;
+  font-weight: normal;
+  color: #EEEFF4;
+}
+
+.intro-cont .text-col h1 {
+  font-size: 70px;
+}
+
+@media screen and (max-width: 756px) {
+  .intro-cont .text-col h1 {
+    font-size: 56px;
+  }
+}
+
+.intro-cont .text-col p {
+  font-size: 15px;
+}
+
+.intro-cont img {
+  width: 100%;
+}
+
+.btn-row {
+  position: absolute;
+  top: 68vw;
+  left: 65px;
+}
+
+.btn-row .btn {
+  background-color: white;
+  border: 1px solid #707070;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.btn-row .btn h3 {
+  font-size: 12px;
+}

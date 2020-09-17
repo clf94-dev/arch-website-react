@@ -121,3 +121,42 @@
             }
         }
     }
+    
+    .intro-cont {
+        padding: 5% 7%;
+        .text-col {
+            position: absolute;
+            top: 28vw;
+            left: 20%;
+            padding-right: 30%;
+            font-weight: normal;
+            color: $very-light-grey;
+            h1 {
+                @media screen and (max-width: 756px) {
+                    font-size: 56px;
+                }
+                font-size: 70px;
+            }
+            p {
+                font-size: 15px;
+            }
+        }
+        img {
+            width: 100%;
+        }
+    }
+    
+    .btn-row {
+        position: absolute;
+        top: 68vw;
+        left: 65px;
+        .btn {
+            background-color: white;
+            border: 1px solid $dark-grey;
+            padding: 20px;
+            cursor: pointer;
+            h3 {
+                font-size: 12px;
+            }
+        }
+    }
