@@ -3,11 +3,13 @@ import React from 'react'
 import {Grid} from '@material-ui/core'
 import WelcomeD from './images/home/desktop/image-welcome.jpg'
 
+import './styles/App.css'
+
 function Welcome() {
     return (
       
-            <Grid container direction='row'>
-                <Grid item md={7} xs={12}>
+            <Grid container direction='row' className='welcome-cont'>
+                <Grid item md={7} xs={12} className='text-col'>
                     <h1>Welcome</h1>
                     <h3>Welcome to Arch Studio</h3>
                     <p>We have a unique network and skillset to help bring your projects to life.
@@ -19,7 +21,7 @@ function Welcome() {
                         each project. This allows us to work in harmony the surrounding area to create
                         truly stunning projects that will stand the test of time.</p>
                 </Grid>
-                <Grid item md={5} xs={12}>
+                <Grid item md={5} xs={12} className='img-col'>
                     <img src={WelcomeD} alt="welcome"/>
                 </Grid>
             </Grid>

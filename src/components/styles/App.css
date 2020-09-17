@@ -179,3 +179,34 @@ body {
 .btn-row .btn h3 {
   font-size: 12px;
 }
+
+.welcome-cont {
+  padding: 5% 7%;
+}
+
+.welcome-cont .text-col h1 {
+  position: absolute;
+  left: 10vw;
+  font-weight: 500;
+  letter-spacing: -0.8rem;
+  font-size: 180px;
+  z-index: -1 !important;
+  color: #EEEFF4;
+}
+
+.welcome-cont .text-col h3 {
+  padding: 140px 3% 2% 32%;
+  letter-spacing: -0.3rem;
+  z-index: 2 !important;
+  font-size: 56px;
+  font-weight: 300;
+}
+
+.welcome-cont .text-col p {
+  padding: 1% 2% 2% 32%;
+  font-size: 15px;
+}
+
+.welcome-cont .img-col {
+  text-align: end;
+}
