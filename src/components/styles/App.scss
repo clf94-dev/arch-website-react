@@ -12,3 +12,69 @@ sans-serif;
     padding: 0;
     font-family: $font;
 }
+
+body {
+    overflow: hidden;
+}
+
+//------------------Navbar Component-----------------
+.navbar {
+    height: 120px;
+    display: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    .navbar-cont {
+        display: flex;
+        justify-content: center;
+        height: 120px;
+        max-width: 1600px;
+        img {
+            align-self: start !important;
+            height: 50%;
+            text-align: start;
+            margin-left: 20px;
+            margin-top: 30px;
+            cursor: pointer;
+            align-items: center;
+        }
+        .menu-icon {
+            display: none;
+            .fa-bars,
+            .fa-times {
+                color: $black;
+            }
+        }
+        .nav-menu {
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            grid-gap: 60px;
+            list-style: none;
+            text-align: center;
+            justify-content: start;
+            margin-left: 70px;
+            width: 70vw;
+            align-items: center;
+        }
+        .nav-menu {
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            padding: 0.5rem 1rem;
+            height: 100%;
+            color: $dark-grey !important;
+            &:hover {
+                transition: all 0.2s ease-out;
+            }
+            &-mobile {
+                display: none;
+            }
+            .nav-item {
+                &:hover {
+                    cursor: pointer;
+                    color: $black !important;
+                }
+            }
+        }
+    }
+}
