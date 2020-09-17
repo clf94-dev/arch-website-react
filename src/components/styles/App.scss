@@ -14,7 +14,7 @@
     }
     
     body {
-        overflow: hidden;
+        overflow-x: hidden;
     }
     
     //------------------Navbar Component-----------------
@@ -123,12 +123,12 @@
     }
     
     .intro-cont {
-        padding: 5% 7%;
+        padding: 3% 7% 5% 10%;
         .text-col {
             position: absolute;
             top: 28vw;
             left: 20%;
-            padding-right: 30%;
+            padding-right: 40%;
             font-weight: normal;
             color: $very-light-grey;
             h1 {
@@ -139,6 +139,7 @@
             }
             p {
                 font-size: 15px;
+                padding-right: 25%;
             }
         }
         img {
@@ -148,8 +149,8 @@
     
     .btn-row {
         position: absolute;
-        top: 68vw;
-        left: 65px;
+        top: 60.25vw;
+        left: 103px;
         .btn {
             background-color: white;
             border: 1px solid $dark-grey;

@@ -6,7 +6,7 @@
 }
 
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -132,14 +132,14 @@ body {
 }
 
 .intro-cont {
-  padding: 5% 7%;
+  padding: 3% 7% 5% 10%;
 }
 
 .intro-cont .text-col {
   position: absolute;
   top: 28vw;
   left: 20%;
-  padding-right: 30%;
+  padding-right: 40%;
   font-weight: normal;
   color: #EEEFF4;
 }
@@ -156,6 +156,7 @@ body {
 
 .intro-cont .text-col p {
   font-size: 15px;
+  padding-right: 25%;
 }
 
 .intro-cont img {
@@ -164,8 +165,8 @@ body {
 
 .btn-row {
   position: absolute;
-  top: 68vw;
-  left: 65px;
+  top: 60.25vw;
+  left: 103px;
 }
 
 .btn-row .btn {
