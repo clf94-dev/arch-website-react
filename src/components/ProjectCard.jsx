@@ -1,18 +1,19 @@
 import React from 'react'
 
-import SolD from './images/portfolio/desktop/image-del-sol.jpg'
-import Tower228BD from './images/portfolio/desktop/image-228b.jpg'
-import PrototypeD from './images/portfolio/desktop/image-prototype.jpg'
-import {Grid} from '@material-ui/core';
 
+import {Grid} from '@material-ui/core';
+import {PortfolioProj } from './PortfolioProj'
+import { PrototypeD, PrototypeM, PrototypeT, ParamourD, ParamourT, ParamourM, TrinityD, TrinityT, TrinityM, SeraphD, SeraphM, SeraphT, FederalD, FederalM, FederalT, EdelweissD, EdelweissM, EdelweissT, EeboxD, EeboxM, EeboxT, SolD, SolM, SolT, Tower228D, Tower228M, Tower228T, NetcryD, NetcryT, NetcryM, HypersD, HypersT, HypersM, SXIVD, SXIVM, SXIVT } from './PortfolioProjImg'
+import  { SolFD,  Tower228BD, PrototypePD} from './FeaturedProjImg'
 import {Link} from 'react-router-dom/cjs/react-router-dom.min';
 
 function ProjectCard(props) {
-    const FeaturedD = [SolD, Tower228BD, PrototypeD];
+    const FeaturedD = [SolFD, Tower228BD, PrototypePD];
+    const PortfolioProjD = [SeraphD ,EeboxD, FederalD, SolD,PrototypeD, Tower228D,EdelweissD, HypersD, SXIVD,  TrinityD,  ParamourD];
     return (
 
         <Grid className='project-card-cont' item lg={4} md={12}>
-            <img src={FeaturedD[props.index]} alt={props.imgALT}/>
+            <img src={props.portfolio? PortfolioProjD[props.index]: FeaturedD[props.index]} alt={props.imgALT}/>
             <h1>{props.projNum}</h1>
             <Grid container direction='column' className='project-card-text'>
                 <h3
@@ -21,6 +22,7 @@ function ProjectCard(props) {
                         ? 'black'
                         : '#EEEFF4'
                 }}>{props.title}</h3>
+                <p style={{display: !props.portfolio&& 'none'}}>{props.text}</p>
                 <Link to='/portfolio'>
                     <button
                         style={{
@@ -29,7 +31,8 @@ function ProjectCard(props) {
                             : '#EEEFF4',
                         borderColor: props.index == 0
                             ? 'black'
-                            : '#EEEFF4'
+                            : '#EEEFF4',
+                            display: props.portfolio&&'none'
                     }}>View All Projects</button>
                 </Link>
             </Grid>

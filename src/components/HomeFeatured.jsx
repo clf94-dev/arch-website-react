@@ -25,6 +25,7 @@ function HomeFeatured() {
                         projNum = {
                             proj.num
                         }
+                        portfolio={false}
                         title = {
                             proj.title
                         }
