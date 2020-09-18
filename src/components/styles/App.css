@@ -384,3 +384,56 @@ body {
   color: black !important;
   border-color: white !important;
 }
+
+.footer-cont {
+  padding: 3% 7% 0 7%;
+  text-align: center;
+  align-items: center;
+}
+
+.footer-cont .logo-cont {
+  background-color: black;
+  padding: 5% 0;
+}
+
+.footer-cont .links-col {
+  background-color: #EEEFF4;
+  padding: 6% 3%;
+}
+
+.footer-cont .links-col p {
+  font-size: 14px;
+  color: #707070;
+  cursor: pointer;
+}
+
+.footer-cont .links-col p:hover {
+  color: black;
+}
+
+.footer-cont .btn-col {
+  background-color: #EEEFF4;
+  padding: 4.4% 0;
+}
+
+.footer-cont .btn-col button {
+  width: 250px;
+  height: 60px;
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+  align-items: center !important;
+  border: 1px solid black;
+}
+
+.footer-cont .btn-col button img {
+  padding-top: 5px;
+  padding-left: 20px;
+  height: 20px;
+}
+
+.footer-cont .btn-col button:hover {
+  background-color: white;
+  color: #000000;
+  border-color: #000000;
+}
