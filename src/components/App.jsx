@@ -7,7 +7,7 @@ import About from './pages/About';
 import Careers from './pages/Careers';
 import Home from './pages/Home';
 import HomeIntro from './HomeIntro';
-
+import Footer from './Footer';
 
 function App() {
     return (
@@ -16,14 +16,13 @@ function App() {
 
                 <Navbar/>
 
-    
                 <Switch>
                     <Route path='/' exact component={Home}></Route>
                     <Route path='/portfolio' exact component={Portfolio}></Route>
                     <Route path='/about' exact component={About}></Route>
                     <Route path='/careers' exact component={Careers}></Route>
                 </Switch>
-
+                <Footer/>
             </Router>
         </div>
     )
