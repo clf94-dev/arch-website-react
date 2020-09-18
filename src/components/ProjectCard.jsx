@@ -13,10 +13,10 @@ function ProjectCard(props) {
         
                 <Grid item lg={4} md={12}className='project-card-cont'>
                     <img src={FeaturedD[props.index]} alt={props.imgALT}/>
-    <h1>{props.projNum}</h1>
+                 <h1>{props.projNum}</h1>
                     <Grid container direction='column' className='project-card-text'>
-                        <h3>{props.title}</h3>
-                        <button>View All Projects</button>
+                        <h3 style={{color:props.index==0? 'black': '#EEEFF4'}}>{props.title}</h3>
+                        <button style={{color: props.index==0? 'black': '#EEEFF4', borderColor: props.index==0? 'black': '#EEEFF4'}}>View All Projects</button>
                     </Grid>
                 </Grid>
          

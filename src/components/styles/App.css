@@ -330,4 +330,57 @@ body {
 .featured-cont .feat-proj-row .project-card-cont .project-card-text {
   position: absolute !important;
   top: 400%;
+  padding-left: 20px;
+}
+
+.featured-cont .feat-proj-row .project-card-cont .project-card-text button {
+  width: 250px;
+  height: 60px;
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+  align-items: center !important;
+  border: 1px solid black;
+}
+
+.featured-cont .feat-proj-row .project-card-cont .project-card-text button img {
+  padding-top: 5px;
+  padding-left: 20px;
+  height: 20px;
+}
+
+.featured-cont .feat-proj-row .project-card-cont .project-card-text button:hover {
+  background-color: white;
+  color: #000000;
+  border-color: #000000;
+}
+
+.featured-cont .feat-proj-row .project-card-cont .project-card-text h3 {
+  font-size: 18px;
+  font-weight: 300;
+  color: #EEEFF4;
+  padding-right: 60%;
+  padding-bottom: 10px;
+}
+
+.featured-cont .feat-proj-row .project-card-cont .project-card-text button {
+  width: 250px;
+  height: 30px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  align-items: center !important;
+  border: 1px solid white;
+}
+
+.featured-cont .feat-proj-row .project-card-cont .project-card-text button img {
+  padding-top: 5px;
+  padding-left: 20px;
+  height: 20px;
+}
+
+.featured-cont .feat-proj-row .project-card-cont .project-card-text button:hover {
+  background-color: white;
+  color: black !important;
+  border-color: white !important;
 }
