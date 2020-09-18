@@ -245,3 +245,57 @@
             }
         }
     }
+    
+    //-----------------Featured Section ----------------
+    .featured-cont {
+        padding: 5% 7%;
+        .feat-head-row {
+            padding: 2% 0;
+            h3 {
+                font-size: 56px;
+            }
+            .button-col {
+                text-align: end;
+                button {
+                    width: 250px;
+                    height: 60px;
+                    background-color: $black;
+                    color: white;
+                    cursor: pointer;
+                    align-items: center !important;
+                    border: 1px solid black;
+                    img {
+                        padding-top: 5px;
+                        padding-left: 20px;
+                        height: 20px;
+                    }
+                    &:hover {
+                        background-color: white;
+                        color: $black;
+                        border-color: $black;
+                    }
+                }
+            }
+        }
+        .feat-proj-row {
+            .project-card-cont {
+                padding: 0 2%;
+                img {
+                    width: 100%
+                }
+                h1 {
+                    position: absolute;
+                    top: 340%;
+                    font-size: 200px;
+                    font-family: sans-serif;
+                    font-weight: 300;
+                    color: $very-light-grey;
+                    padding-left: 17%;
+                }
+                .project-card-text {
+                    position: absolute !important;
+                    top: 400%;
+                }
+            }
+        }
+    }

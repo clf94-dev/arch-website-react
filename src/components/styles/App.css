@@ -270,3 +270,64 @@ body {
   color: #000000;
   border-color: #000000;
 }
+
+.featured-cont {
+  padding: 5% 7%;
+}
+
+.featured-cont .feat-head-row {
+  padding: 2% 0;
+}
+
+.featured-cont .feat-head-row h3 {
+  font-size: 56px;
+}
+
+.featured-cont .feat-head-row .button-col {
+  text-align: end;
+}
+
+.featured-cont .feat-head-row .button-col button {
+  width: 250px;
+  height: 60px;
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+  align-items: center !important;
+  border: 1px solid black;
+}
+
+.featured-cont .feat-head-row .button-col button img {
+  padding-top: 5px;
+  padding-left: 20px;
+  height: 20px;
+}
+
+.featured-cont .feat-head-row .button-col button:hover {
+  background-color: white;
+  color: #000000;
+  border-color: #000000;
+}
+
+.featured-cont .feat-proj-row .project-card-cont {
+  padding: 0 2%;
+}
+
+.featured-cont .feat-proj-row .project-card-cont img {
+  width: 100%;
+}
+
+.featured-cont .feat-proj-row .project-card-cont h1 {
+  position: absolute;
+  top: 340%;
+  font-size: 200px;
+  font-family: sans-serif;
+  font-weight: 300;
+  color: #EEEFF4;
+  padding-left: 17%;
+}
+
+.featured-cont .feat-proj-row .project-card-cont .project-card-text {
+  position: absolute !important;
+  top: 400%;
+}

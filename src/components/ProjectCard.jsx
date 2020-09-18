@@ -11,10 +11,10 @@ function ProjectCard(props) {
     return (
         
         
-                <Grid item lg={4} md={12}>
+                <Grid item lg={4} md={12}className='project-card-cont'>
                     <img src={FeaturedD[props.index]} alt={props.imgALT}/>
-
-                    <Grid container direction='column'>
+    <h1>{props.projNum}</h1>
+                    <Grid container direction='column' className='project-card-text'>
                         <h3>{props.title}</h3>
                         <button>View All Projects</button>
                     </Grid>
