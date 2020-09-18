@@ -3,10 +3,12 @@ import React from 'react'
 import {PortfolioProj} from './PortfolioProj'
 import ProjectCard from './ProjectCard'
 
+import './styles/App.css'
+
 function PortfolioSection() {
     return (
-        <div>
-            <Grid container direction='row' className='feat-proj-row'>
+      
+            <Grid container direction='row' className='portf-proj-row'>
                     {PortfolioProj.map(proj => {
                         return (< ProjectCard key = {
                             proj.index
@@ -28,7 +30,7 @@ function PortfolioSection() {
                     })}
 
                 </Grid>
-        </div>
+        
     )
 }
 

@@ -9,20 +9,21 @@ import {Link} from 'react-router-dom/cjs/react-router-dom.min';
 
 function ProjectCard(props) {
     const FeaturedD = [SolFD, Tower228BD, PrototypePD];
-    const PortfolioProjD = [SeraphD ,EeboxD, FederalD, SolD,PrototypeD, Tower228D,EdelweissD, HypersD, SXIVD,  TrinityD,  ParamourD];
+    const PortfolioProjD = [SeraphD ,EeboxD, FederalD, SolD,PrototypeD, Tower228D,EdelweissD, NetcryD, HypersD, SXIVD,  TrinityD,  ParamourD];
     return (
 
-        <Grid className='project-card-cont' item lg={4} md={12}>
+        <Grid className={props.portfolio?'project-port-card-cont': 'project-card-cont'} item lg={4} md={12}>
             <img src={props.portfolio? PortfolioProjD[props.index]: FeaturedD[props.index]} alt={props.imgALT}/>
             <h1>{props.projNum}</h1>
             <Grid container direction='column' className='project-card-text'>
                 <h3
                     style={{
-                    color: props.index == 0
+                    color: (props.index == 0 && !props.portfolio)||(props.index == 3 && props.portfolio)
                         ? 'black'
                         : '#EEEFF4'
                 }}>{props.title}</h3>
-                <p style={{display: !props.portfolio&& 'none'}}>{props.text}</p>
+                <p style={{display: !props.portfolio&& 'none', color:props.index == 3 && props.portfolio ? 'black'
+                        : '#EEEFF4' }}>{props.text}</p>
                 <Link to='/portfolio'>
                     <button
                         style={{
