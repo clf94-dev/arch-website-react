@@ -177,9 +177,9 @@ body {
 }
 
 .intro-cont .text-col button:hover {
-  background-color: white;
-  color: #000000;
-  border-color: #000000;
+  background-color: #707070;
+  color: white;
+  border-color: #707070;
 }
 
 .intro-cont img {
@@ -272,9 +272,9 @@ body {
 }
 
 .team-cont .team-text button:hover {
-  background-color: white;
-  color: #000000;
-  border-color: #000000;
+  background-color: #707070;
+  color: white;
+  border-color: #707070;
 }
 
 .featured-cont {
@@ -310,9 +310,9 @@ body {
 }
 
 .featured-cont .feat-head-row .button-col button:hover {
-  background-color: white;
-  color: #000000;
-  border-color: #000000;
+  background-color: #707070;
+  color: white;
+  border-color: #707070;
 }
 
 .featured-cont .feat-proj-row .project-card-cont {
@@ -356,9 +356,9 @@ body {
 }
 
 .featured-cont .feat-proj-row .project-card-cont .project-card-text button:hover {
-  background-color: white;
-  color: #000000;
-  border-color: #000000;
+  background-color: #707070;
+  color: white;
+  border-color: #707070;
 }
 
 .featured-cont .feat-proj-row .project-card-cont .project-card-text h3 {
@@ -386,9 +386,9 @@ body {
 }
 
 .featured-cont .feat-proj-row .project-card-cont .project-card-text button:hover {
-  background-color: white;
-  color: black !important;
-  border-color: white !important;
+  background-color: #707070;
+  color: white;
+  border-color: #707070;
 }
 
 .footer-cont {
@@ -440,7 +440,7 @@ body {
 }
 
 .footer-cont .btn-col button:hover {
-  background-color: white;
-  color: #000000;
-  border-color: #000000;
+  background-color: #707070;
+  color: white;
+  border-color: #707070;
 }
