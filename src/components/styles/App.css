@@ -389,6 +389,7 @@ body {
   padding: 3% 7% 0 7%;
   text-align: center;
   align-items: center;
+  text-decoration: none !important;
 }
 
 .footer-cont .logo-cont {
