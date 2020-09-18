@@ -1,5 +1,8 @@
 import {Grid} from '@material-ui/core'
 import React, {useState} from 'react'
+
+import {Link} from 'react-router-dom/cjs/react-router-dom.min';
+
 import {HomeIntroData} from './HomeIntroData'
 import {
     ParamourD,
@@ -43,7 +46,7 @@ function HomeIntro() {
                         {HomeIntroData[project].text}
                     </p>
 
-                    <button>See Our Portfolio</button>
+                    <Link to='/portfolio'><button>See Our Portfolio</button></Link>
                 </Grid>
             </Grid>
             <Grid container direction='row' className='btn-row'>

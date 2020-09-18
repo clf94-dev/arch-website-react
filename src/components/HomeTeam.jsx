@@ -4,6 +4,8 @@ import Team from './images/home/desktop/image-small-team.jpg'
 import Arrow from './images/icons/icon-arrow.svg'
 import './styles/App.css'
 
+import {Link} from 'react-router-dom/cjs/react-router-dom.min';
+
 function HomeTeam() {
     return (
         <div>
@@ -11,7 +13,10 @@ function HomeTeam() {
                 <img src={Team} alt="team"/>
                 <Grid container direction='column' className='team-text'>
                     <h3>Small team, big ideas</h3>
-                    <button>About Us <img src={Arrow} alt="arrow"/></button>
+                    <Link to='/about'>
+                        <button>About Us
+                            <img src={Arrow} alt="arrow"/></button>
+                    </Link>
                 </Grid>
             </Grid>
         </div>
