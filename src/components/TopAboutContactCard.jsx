@@ -15,13 +15,13 @@ function TopAboutContactCard(props) {
                             : TopInfo[0].imgALT}/>
                 </Grid>
                 <Grid item md={6} xs={12}>
-                    <h1>{!props.contact
+                    <h1>{props.contact
                             ? TopInfo[1].bigtitle
                             : TopInfo[0].bigtitle}</h1>
-                    <h3>{!props.contact
+                    <h3>{props.contact
                             ? TopInfo[1].title
                             : TopInfo[0].title}</h3>
-                    <p>{!props.contact
+                    <p>{props.contact
                             ? TopInfo[1].text
                             : TopInfo[0].text}</p>
                 </Grid>

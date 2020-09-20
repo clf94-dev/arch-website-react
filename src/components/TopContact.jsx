@@ -1,10 +1,11 @@
 import React from 'react'
 import TopAboutContactCard from './TopAboutContactCard'
+const contact= true;
 
 function TopContact() {
     return (
         <div>
-            <TopAboutContactCard contact='true'/>
+            <TopAboutContactCard contact={contact}/>
         </div>
     )
 }
