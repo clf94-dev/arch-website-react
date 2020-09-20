@@ -23,7 +23,9 @@ function TeamAbout() {
                             }
                             imgAlt = {
                                 person.imgALT
-                            } />)
+                            } 
+                            
+                            index={person.index}/>)
                         })}
                     </Grid>
                 </Grid>
