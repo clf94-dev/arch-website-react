@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutMiddle from '../AboutMiddle'
+import TeamAbout from '../TeamAbout.jsx'
 import TopAbout from '../TopAbout'
 
 function About() {
@@ -7,6 +8,7 @@ function About() {
         <div>
             <TopAbout/>
             <AboutMiddle/>
+            <TeamAbout />
         </div>
     )
 }
