@@ -20,7 +20,7 @@ function Footer() {
                 <Link to='/about' style={{textDecoration:'none'}} > <p>About Us</p></Link>   
                 </Grid>
                 <Grid item md={2} xs={12} className='links-col'>
-                <Link to='/careers' style={{textDecoration:'none'}}> <p>Careers</p></Link>   
+                <Link to='/contact' style={{textDecoration:'none'}}> <p>Contact</p></Link>   
                 </Grid>
                 <Grid item md={4} xs={12} className='btn-col'>
                    <Link to='/portfolio' style={{textDecoration:'none'}}> <button>See Our Portfolio</button></Link>
