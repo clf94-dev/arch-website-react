@@ -507,21 +507,46 @@ body {
 //----------------Top section pages:About and Contact ---------------
 .top-section-cont {
     padding: 2% 7% 5% 10%;
+    .img-col {
+        @media screen and (max-width: 756px) {
+            overflow-x: hidden;
+        }
+        img {
+            @media screen and (max-width: 1081px) {
+                width: 160%;
+            }
+        }
+    }
     .text-col {
-        position: absolute;
-        left: 42%;
-        top: 40%;
-        padding: 13% 7% 12% 10%;
+        @media screen and (min-width: 1080px) {
+            position: absolute;
+            left: 42%;
+            top: 40% !important;
+            padding: 13% 7% 12% 10%;
+        }
+        @media screen and (min-width: 757px) {
+            position: absolute;
+            left: 42%;
+            top: 60%;
+            padding: 13% 7% 10% 10%;
+        }
         background-color: white;
         h1 {
+            display: block;
             position: absolute;
             top: -12%;
             left: -20%;
-            font-size: 200px;
+            @media screen and (min-width: 1080px) {
+                font-size: 200px;
+            }
+            font-size: 150px;
             font-family: sans-serif;
             font-weight: 300;
             color: $very-light-grey;
             padding-left: 17%;
+            @media screen and (max-width: 756px) {
+                display: none;
+            }
         }
         h3 {
             font-size: 56px;
