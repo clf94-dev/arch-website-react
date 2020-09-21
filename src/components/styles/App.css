@@ -151,6 +151,13 @@ body {
 @media screen and (max-width: 756px) {
   .intro-cont .text-col h1 {
     font-size: 56px;
+    padding-top: 60% !important;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .intro-cont .text-col h1 {
+    padding-top: 65% !important;
   }
 }
 
@@ -190,6 +197,18 @@ body {
   position: absolute;
   top: 60.25vw;
   left: 103px;
+}
+
+@media screen and (max-width: 756px) {
+  .btn-row {
+    top: 85% !important;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .btn-row {
+    top: 120%;
+  }
 }
 
 .btn-row .btn {

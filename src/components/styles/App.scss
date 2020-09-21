@@ -135,6 +135,10 @@ body {
         h1 {
             @media screen and (max-width: 756px) {
                 font-size: 56px;
+                padding-top: 60% !important;
+            }
+            @media screen and (max-width: 1080px) {
+                padding-top: 65% !important;
             }
             font-size: 70px;
         }
@@ -170,6 +174,12 @@ body {
 
 .btn-row {
     position: absolute;
+    @media screen and(max-width: 756px) {
+        top: 85% !important;
+    }
+    @media screen and(max-width: 1080px) {
+        top: 120%;
+    }
     top: 60.25vw;
     left: 103px;
     .btn {
