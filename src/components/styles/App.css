@@ -741,21 +741,18 @@ body {
   padding-right: 50%;
 }
 
-.team-cont .members-col {
-  justify-content: space-evenly !important;
-}
-
-.team-cont .members-col .member-card {
-  justify-content: space-between !important;
+@media screen and (min-width: 757px) {
+  .team-cont .members-col {
+    justify-content: space-evenly !important;
+  }
 }
 
 .team-cont .members-col .member-card .card-col {
-  padding: 0% 7%;
   margin-bottom: 50px !important;
 }
 
 .team-cont .members-col .member-card .card-col img {
-  width: 300px;
+  width: 350px;
 }
 
 .team-cont .members-col .member-card .card-col h3 {
