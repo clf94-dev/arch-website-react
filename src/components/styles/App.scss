@@ -526,3 +526,28 @@ body {
         }
     }
 }
+
+// --------------------- Contact Details  section -----------------
+.contact-details-cont {
+    padding: 5% 7% 5% 10%;
+    .title-col {
+        h3 {
+            font-size: 56px;
+            font-weight: 300;
+            letter-spacing: -0.2rem;
+            padding-bottom: 10px;
+            padding-right: 50%;
+        }
+    }
+    .info-cont {
+        .info-card {
+            padding-bottom: 20px;
+            p {
+                padding-bottom: 5px;
+                &:first-child {
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}

@@ -3,8 +3,8 @@ import React from 'react'
 
 function ContactInfoCard(props) {
     return (
-        <div>
-            <Grid item lg={12} xs={12}>
+        <Grid container direction='row' >
+            <Grid item lg={12} xs={12} className='info-card' >
                 <p>{props.office}</p>
                 <p>
                     {props.mail}
@@ -16,7 +16,7 @@ function ContactInfoCard(props) {
                     {props.phone}
                 </p>
             </Grid>
-        </div>
+        </Grid>
     )
 }
 
