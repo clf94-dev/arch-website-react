@@ -32,13 +32,17 @@ function HomeIntro() {
     const goToProject4 = () => setProject(3);
 
     const imgD = [ParamourD, SeraphD, FederalD, TrinityD];
+    const imgT = [ParamourT, SeraphT, FederalT, TrinityT];
+    const imgM =[ParamourM, SeraphM, FederalM, TrinityM];
+
+
     return (
         <div>
             
             <Grid container direction='row' className='intro-cont'>
                
                 <Grid item xs={12}>
-                    <img src={imgD[project]} alt={HomeIntroData[project].imgALT}/>
+                    <img src={imgD[project]} srcset={`${imgT[project]} 1280w, ${imgD[project]} 1500w, ${imgM[project]} 756w`} alt={HomeIntroData[project].imgALT}/>
                 </Grid>
                 <Grid item xs={12} className='text-col'>
                     <h1>{HomeIntroData[project].title}</h1>
