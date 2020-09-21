@@ -563,9 +563,28 @@ body {
   padding: 0 2% 1% 2%;
 }
 
+@media screen and (min-width: 757px) {
+  .portf-proj-row .project-port-card-cont {
+    overflow-x: hidden;
+  }
+}
+
 .portf-proj-row .project-port-card-cont img {
-  width: 100%;
-  height: 600px;
+  width: 360px;
+}
+
+@media screen and (min-width: 1080px) {
+  .portf-proj-row .project-port-card-cont img {
+    width: 100%;
+    height: 600px;
+  }
+}
+
+@media screen and (min-width: 757px) {
+  .portf-proj-row .project-port-card-cont img {
+    width: 1000px;
+    height: 450px;
+  }
 }
 
 .portf-proj-row .project-port-card-cont h1 {
