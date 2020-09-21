@@ -251,10 +251,17 @@ body {
         position: absolute;
         padding: 10% 15%;
         h3 {
-            font-size: 56px;
             font-weight: 300;
             color: white;
-            padding-right: 60%;
+            @media screen and (min-width: 1080px) {
+                padding-right: 60%;
+                font-size: 56px;
+            }
+            @media screen and (min-width: 756px) {
+                font-size: 56px;
+            }
+            padding-right: 30%;
+            font-size: 40px;
             padding-bottom: 30px;
         }
         button {

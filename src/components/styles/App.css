@@ -300,11 +300,24 @@ body {
 }
 
 .team-cont .team-text h3 {
-  font-size: 56px;
   font-weight: 300;
   color: white;
-  padding-right: 60%;
+  padding-right: 30%;
+  font-size: 40px;
   padding-bottom: 30px;
+}
+
+@media screen and (min-width: 1080px) {
+  .team-cont .team-text h3 {
+    padding-right: 60%;
+    font-size: 56px;
+  }
+}
+
+@media screen and (min-width: 756px) {
+  .team-cont .team-text h3 {
+    font-size: 56px;
+  }
 }
 
 .team-cont .team-text button {
