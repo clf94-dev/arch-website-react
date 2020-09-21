@@ -542,3 +542,45 @@ body {
   font-size: 16px;
   padding-top: 20px;
 }
+
+.team-cont {
+  padding: 5% 7% 5% 10%;
+}
+
+.team-cont .title-col h3 {
+  font-size: 56px;
+  font-weight: 300;
+  letter-spacing: -0.2rem;
+  padding-bottom: 10px;
+  padding-right: 50%;
+}
+
+.team-cont .members-col {
+  justify-content: space-evenly !important;
+}
+
+.team-cont .members-col .member-card {
+  justify-content: space-between !important;
+}
+
+.team-cont .members-col .member-card .card-col {
+  padding: 0% 7%;
+  margin-bottom: 50px !important;
+}
+
+.team-cont .members-col .member-card .card-col img {
+  width: 300px;
+}
+
+.team-cont .members-col .member-card .card-col h3 {
+  width: 250px;
+  padding-top: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
+.team-cont .members-col .member-card .card-col p {
+  font-size: 16px;
+  width: 250px;
+}
