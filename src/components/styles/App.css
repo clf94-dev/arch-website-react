@@ -768,6 +768,11 @@ body {
   width: 250px;
 }
 
+.team-cont .members-col .member-card .card-col i {
+  margin: 2% 4% 2% 1%;
+  cursor: pointer;
+}
+
 .contact-details-cont {
   padding: 5% 7% 5% 10%;
 }

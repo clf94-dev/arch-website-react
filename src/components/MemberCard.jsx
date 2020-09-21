@@ -7,10 +7,14 @@ function MemberCard(props) {
     return (
         <div>
             <Grid container direction='row' className='member-card'>
-                <Grid item md={6} xs={12} className='card-col'>
+                <Grid item sm={6} xs={12} className='card-col'>
                     <img src={MembersD[props.index]} alt={props.imgAlt}/>
                     <h3>{props.name}</h3>
                     <p>{props.position}</p>
+                    <Grid container direction='row'>
+                        <i className='fab fa-2x fa-linkedin'></i>
+                        <i className='fab fa-2x fa-twitter'></i>
+                    </Grid>
                 </Grid>
             </Grid>
         </div>
