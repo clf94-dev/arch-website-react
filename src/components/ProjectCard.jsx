@@ -18,7 +18,7 @@ function ProjectCard(props) {
     return (
 
         <Grid className={props.portfolio?'project-port-card-cont': 'project-card-cont'} item lg={4} md={12}>
-            <img src={props.portfolio? PortfolioProjD[props.index]: FeaturedD[props.index]} srcset={props.portfolio? `${PortfolioProjD[props.index]} 1500w,${PortfolioProjT[props.index]} 1080w,${PortfolioProjM[props.index]} 756w `: `${FeaturedD[props.index]} 1500w, ${FeaturedM[props.index]} 756w, ${FeaturedT[props.index]} 1080w`} alt={props.imgALT}/>
+            <img src={props.portfolio? PortfolioProjD[props.index]: FeaturedD[props.index]} srcset={props.portfolio? `${PortfolioProjD[props.index]} 1500w, ${PortfolioProjT[props.index]} 1080w, ${PortfolioProjM[props.index]} 756w `: `${FeaturedD[props.index]} 1500w, ${FeaturedM[props.index]} 756w, ${FeaturedT[props.index]} 1080w`} alt={props.imgALT}/>
             <h1>{props.projNum}</h1>
             <Grid container direction='column' className='project-card-text'>
                 <h3
