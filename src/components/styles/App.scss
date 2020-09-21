@@ -434,3 +434,33 @@ body {
         }
     }
 }
+
+.top-section-cont {
+    padding: 2% 7% 5% 10%;
+    .text-col {
+        position: absolute;
+        left: 42%;
+        top: 40%;
+        padding: 13% 7% 12% 10%;
+        background-color: white;
+        h1 {
+            position: absolute;
+            top: -12%;
+            left: -20%;
+            font-size: 200px;
+            font-family: sans-serif;
+            font-weight: 300;
+            color: $very-light-grey;
+            padding-left: 17%;
+        }
+        h3 {
+            font-size: 56px;
+            font-weight: 300;
+            letter-spacing: -0.2rem;
+        }
+        p {
+            font-size: 16px;
+            padding-top: 15px;
+        }
+    }
+}

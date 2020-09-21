@@ -8,13 +8,13 @@ import TopContactD from './images/contact/desktop/image-hero.jpg'
 function TopAboutContactCard(props) {
     return (
         <div>
-            <Grid container direction='row'>
-                <Grid item md={6} xs={12}>
+            <Grid container direction='row' className='top-section-cont'>
+                <Grid item md={6} xs={12} className='img-col'>
                     <img src={props.contact? TopContactD: TopAboutD} alt={props.contact
                             ? TopInfo[1].imgALT
                             : TopInfo[0].imgALT}/>
                 </Grid>
-                <Grid item md={6} xs={12}>
+                <Grid item md={6} xs={12} className='text-col'>
                     <h1>{props.contact
                             ? TopInfo[1].bigtitle
                             : TopInfo[0].bigtitle}</h1>

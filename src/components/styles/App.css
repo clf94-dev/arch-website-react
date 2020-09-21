@@ -486,3 +486,37 @@ body {
 .portf-proj-row .project-port-card-cont .project-card-text p {
   font-size: 14px;
 }
+
+.top-section-cont {
+  padding: 2% 7% 5% 10%;
+}
+
+.top-section-cont .text-col {
+  position: absolute;
+  left: 42%;
+  top: 40%;
+  padding: 13% 7% 12% 10%;
+  background-color: white;
+}
+
+.top-section-cont .text-col h1 {
+  position: absolute;
+  top: -12%;
+  left: -20%;
+  font-size: 200px;
+  font-family: sans-serif;
+  font-weight: 300;
+  color: #EEEFF4;
+  padding-left: 17%;
+}
+
+.top-section-cont .text-col h3 {
+  font-size: 56px;
+  font-weight: 300;
+  letter-spacing: -0.2rem;
+}
+
+.top-section-cont .text-col p {
+  font-size: 16px;
+  padding-top: 15px;
+}
