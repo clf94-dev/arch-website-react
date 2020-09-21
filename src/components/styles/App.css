@@ -612,3 +612,12 @@ body {
 .contact-details-cont .info-cont .info-card p:first-child {
   font-weight: 500;
 }
+
+.map-img-cont {
+  padding: 5% 7% 5% 10%;
+  justify-content: center;
+}
+
+.map-img-cont img {
+  width: 70%;
+}
