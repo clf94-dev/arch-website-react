@@ -563,6 +563,9 @@ body {
 //---------------Middle section About page ------------------
 .middle-cont {
     padding: 5% 7% 5% 10%;
+    @media screen and (max-width: 1081px) {
+        padding: 4% 7% 4% 10%;
+    }
     .text-col {
         padding-top: 7%;
         padding-right: 15%;
@@ -580,6 +583,11 @@ body {
     }
     .img-col {
         padding-left: 3.5%;
+        overflow-x: hidden;
+        display: block;
+        @media screen and (max-width: 757px) {
+            display: none;
+        }
     }
 }
 

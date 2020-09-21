@@ -6,7 +6,7 @@ function AboutMiddle() {
         <div>
 
             <Grid container direction='row' className='middle-cont'>
-                <Grid item md={6} xs={12} className='text-col'>
+                <Grid item md={6} sm={12} className='text-col'>
                     <h3>Our Heritage</h3>
                     <p>Founded in 2007, we started as a trio of architects. Our complimentary skills
                         and relentless attention to detail turned Arch into one of the most sought after
@@ -17,7 +17,7 @@ function AboutMiddle() {
                     <p>Our small team of world-class professionals provides input on every project.
                     </p>
                 </Grid>
-                <Grid item md={6} xs={12} className='img-col'>
+                <Grid item md={6} sm={12} className='img-col'>
                     <img src={MiddleImg} alt="Heritage"/>
                 </Grid>
             </Grid>

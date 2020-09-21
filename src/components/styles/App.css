@@ -693,6 +693,12 @@ body {
   padding: 5% 7% 5% 10%;
 }
 
+@media screen and (max-width: 1081px) {
+  .middle-cont {
+    padding: 4% 7% 4% 10%;
+  }
+}
+
 .middle-cont .text-col {
   padding-top: 7%;
   padding-right: 15%;
@@ -713,6 +719,14 @@ body {
 
 .middle-cont .img-col {
   padding-left: 3.5%;
+  overflow-x: hidden;
+  display: block;
+}
+
+@media screen and (max-width: 757px) {
+  .middle-cont .img-col {
+    display: none;
+  }
 }
 
 .team-cont {
