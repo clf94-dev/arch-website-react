@@ -543,6 +543,10 @@ body {
   padding-top: 20px;
 }
 
+.middle-cont .img-col {
+  padding-left: 3.5%;
+}
+
 .team-cont {
   padding: 5% 7% 5% 10%;
 }
