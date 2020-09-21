@@ -9,51 +9,57 @@ function Form() {
 
     return (
         <div>
-            <Grid container direction='row'>
+            <Grid container direction='row' className='form-sect-cont'>
 
-                <Grid item lg={4} xs={12}>
+                <Grid item lg={4} xs={12} className='title-col'>
                     <h3>Connect with us</h3>
                 </Grid>
-                <Grid item lg={8} xs={12}>
-                    <form onSubmit={handleSubmit(onsubmit)}>
+                <Grid item lg={8} xs={12} className='form-cont'>
+                    <form onSubmit={handleSubmit(onsubmit)} >
                         <input
                             type="text"
                             name='name'
-                            placeholder='Name'
+                            placeholder={errors.name? 'Name' +'        ' + '   This is required': 'Name'}
                             style={errors.name
                             ? {
-                                borderBottomColor: "red"
+                                borderBottomColor: "red",
+                                color: 'red'
                             }
                             : {
                                 borderBottomColor: "black"
                             }}
                             ref={register({required: true, maxLength: 30})}
-                            className="first-name input"/>
+                            className={errors.name? "error input" :" input"}/>
 
                         <input
                             type="email"
                             name='email'
-                            placeholder='Email'
+                            placeholder={errors.name? 'Email' +'        ' + '   Enter a valid email address': 'Email'}
                             style={errors.email
                             ? {
-                                borderBottomColor: "red"
+                                borderBottomColor: "red",
+                                color:'red'
                             }
                             : {
                                 borderBottomColor: "black"
                             }}
                             ref={register({required: true, pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i})}
-                            className="email-address input"/>
+                            className={errors.email? "error input" :" input"}/>
                         <textarea
                             type="text"
                             name="message"
-                            className='message-input'
-                            placeholder="Your message.."
-                            style={errors.message && {
-                            borderColor: "red"
-                        }}
+                            className={errors.message? "error message" :" message"}
+                            placeholder={errors.message? 'Your message....' +'        ' + '   This is required': 'Your message....'}
+                            style={errors.message  ? {
+                                borderBottomColor: "red",
+                                color:'red'
+                            }
+                            : {
+                                borderBottomColor: "black"
+                            }}
                             ref={register({required: true})}/>
                     </form>
-                    <Button type="submit" onClick={handleSubmit(onSubmit)}>
+                    <Button type="submit" onClick={handleSubmit(onSubmit)} className='submit-btn'>
                     Send Message </Button>
 
                 </Grid>

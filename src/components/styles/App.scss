@@ -552,11 +552,54 @@ body {
     }
 }
 
-//---------------MAp img component ---------------
+//---------------Map img component ---------------
 .map-img-cont {
     padding: 5% 7% 5% 10%;
     justify-content: center;
     img {
         width: 70%;
+    }
+}
+
+//------------- Form Section ---------------------
+.form-sect-cont {
+    padding: 5% 7% 5% 10%;
+    h3 {
+        font-size: 56px;
+        font-weight: 300;
+        letter-spacing: -0.2rem;
+        padding-bottom: 10px;
+        padding-right: 50%;
+    }
+    .form-cont {
+        padding: 2% 5%;
+        input {
+            width: 100%;
+            outline: none;
+            border: none;
+            border-bottom: 1px solid $black;
+            height: 50px;
+            margin-bottom: 15px;
+        }
+        textarea {
+            width: 100%;
+            outline: none;
+            border: none;
+            border-bottom: 1px solid $black;
+            margin-bottom: 35px;
+        }
+    }
+    .submit-btn {
+        background-color: $black;
+        color: white;
+        border: 1px solid $black;
+        border-radius: 0;
+        height: 50px;
+        width: 200px;
+        &:hover {
+            background-color: $dark-grey;
+            color: white;
+            border: 1px solid $dark-grey;
+        }
     }
 }
