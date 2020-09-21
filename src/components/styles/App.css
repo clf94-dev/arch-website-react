@@ -359,13 +359,19 @@ body {
 }
 
 .featured-cont .feat-head-row .button-col button {
-  width: 250px;
+  width: 180px;
   height: 60px;
   background-color: #000000;
   color: white;
   cursor: pointer;
   align-items: center !important;
   border: 1px solid black;
+}
+
+@media screen and (min-width: 1080px) {
+  .featured-cont .feat-head-row .button-col button {
+    width: 250px;
+  }
 }
 
 .featured-cont .feat-head-row .button-col button img {

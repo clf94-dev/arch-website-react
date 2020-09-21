@@ -297,7 +297,10 @@ body {
         .button-col {
             text-align: end;
             button {
-                width: 250px;
+                @media screen and (min-width: 1080px) {
+                    width: 250px;
+                }
+                width: 180px;
                 height: 60px;
                 background-color: $black;
                 color: white;

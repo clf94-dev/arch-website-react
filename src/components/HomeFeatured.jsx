@@ -10,10 +10,10 @@ function HomeFeatured() {
         <div>
             <Grid container className='featured-cont'>
                 <Grid container direction='row' className='feat-head-row'>
-                    <Grid item md={6} xs={12}>
+                    <Grid item sm={6} xs={12}>
                         <h3>Featured</h3>
                     </Grid>
-                    <Grid item md={6} xs={12} className='button-col'>
+                    <Grid item sm={6} xs={12} className='button-col'>
                      <Link to='/portfolio'><button >See All</button></Link>   
                     </Grid>
                 </Grid>
