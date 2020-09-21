@@ -435,6 +435,7 @@ body {
     }
 }
 
+//----------------Top section pages:About and Contact ---------------
 .top-section-cont {
     padding: 2% 7% 5% 10%;
     .text-col {
@@ -461,6 +462,26 @@ body {
         p {
             font-size: 16px;
             padding-top: 15px;
+        }
+    }
+}
+
+//---------------Middle section About page ------------------
+.middle-cont {
+    padding: 5% 7% 5% 10%;
+    .text-col {
+        padding-top: 7%;
+        padding-right: 15%;
+        h3 {
+            font-size: 56px;
+            font-weight: 300;
+            letter-spacing: -0.2rem;
+            padding-bottom: 10px;
+            padding-right: 50%;
+        }
+        p {
+            font-size: 16px;
+            padding-top: 20px;
         }
     }
 }
