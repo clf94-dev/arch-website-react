@@ -144,13 +144,19 @@ body {
   color: #EEEFF4;
 }
 
+@media screen and (max-width: 757px) {
+  .intro-cont .text-col {
+    top: 10%;
+  }
+}
+
 .intro-cont .text-col h1 {
   font-size: 70px;
 }
 
 @media screen and (max-width: 756px) {
   .intro-cont .text-col h1 {
-    font-size: 56px;
+    font-size: 40px;
     padding-top: 60% !important;
   }
 }
@@ -165,6 +171,12 @@ body {
   font-size: 15px;
   padding-right: 25%;
   padding-bottom: 40px;
+}
+
+@media screen and (max-width: 757px) {
+  .intro-cont .text-col p {
+    font-size: 14px;
+  }
 }
 
 .intro-cont .text-col button {

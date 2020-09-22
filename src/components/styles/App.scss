@@ -128,13 +128,16 @@ body {
     .text-col {
         position: absolute;
         top: 28vw;
+        @media screen and (max-width: 757px) {
+            top: 10%;
+        }
         left: 20%;
         padding-right: 40%;
         font-weight: normal;
         color: $very-light-grey;
         h1 {
             @media screen and (max-width: 756px) {
-                font-size: 56px;
+                font-size: 40px;
                 padding-top: 60% !important;
             }
             @media screen and (max-width: 1080px) {
@@ -143,6 +146,9 @@ body {
             font-size: 70px;
         }
         p {
+            @media screen and (max-width: 757px) {
+                font-size: 14px;
+            }
             font-size: 15px;
             padding-right: 25%;
             padding-bottom: 40px;
