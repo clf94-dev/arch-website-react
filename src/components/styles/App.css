@@ -368,6 +368,12 @@ body {
   border: 1px solid black;
 }
 
+@media screen and (max-width: 757px) {
+  .featured-cont .feat-head-row .button-col button {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 1080px) {
   .featured-cont .feat-head-row .button-col button {
     width: 250px;
@@ -381,6 +387,35 @@ body {
 }
 
 .featured-cont .feat-head-row .button-col button:hover {
+  background-color: #707070;
+  color: white;
+  border-color: #707070;
+}
+
+.featured-cont .mobile-btn button {
+  margin-top: 20px;
+  width: 757% !important;
+  height: 60px;
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+  align-items: center !important;
+  border: 1px solid black;
+}
+
+@media screen and (min-width: 757px) {
+  .featured-cont .mobile-btn button {
+    display: none;
+  }
+}
+
+.featured-cont .mobile-btn button img {
+  padding-top: 5px;
+  padding-left: 20px;
+  height: 20px;
+}
+
+.featured-cont .mobile-btn button:hover {
   background-color: #707070;
   color: white;
   border-color: #707070;

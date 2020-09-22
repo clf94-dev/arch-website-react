@@ -38,7 +38,9 @@ function HomeFeatured() {
                     })}
 
                 </Grid>
-
+                <Grid container className='mobile-btn'><Link to='/portfolio'><button >See All</button></Link>   </Grid>
+                
+                    
             </Grid>
         </div>
     )
