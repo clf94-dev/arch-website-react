@@ -798,12 +798,12 @@ body {
 }
 
 .map-img-cont {
-  padding: 5% 7% 5% 10%;
+  padding: 2% 7% 5% 10%;
   justify-content: center;
 }
 
 .map-img-cont img {
-  width: 70%;
+  width: 100%;
 }
 
 .form-sect-cont {
