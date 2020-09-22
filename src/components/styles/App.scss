@@ -678,7 +678,10 @@ body {
         padding-right: 50%;
     }
     .form-cont {
-        padding: 2% 5%;
+        @media screen and (min-width: 1081px) {
+            padding: 2% 5%;
+        }
+        padding-top: 3%;
         input {
             width: 100%;
             outline: none;
@@ -696,6 +699,8 @@ body {
         }
     }
     .submit-btn {
+        margin-top: 3%;
+        margin-bottom: 10%;
         background-color: $black;
         color: white;
         border: 1px solid $black;
