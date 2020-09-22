@@ -8,11 +8,12 @@ function Navbar() {
         setClick] = useState(false);
 
     const handleClick = () => setClick(!click);
+    const closeMobileMenu =() => setClick(false);
 
     return (
         <nav className="navbar">
             <div className="navbar-cont">
-                <Link to='/' className='navbar-logo'>
+                <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
                 <img src={Logo} alt="arch" />
                 </Link>
                 <div className="menu-icon" onClick={handleClick}>
@@ -27,9 +28,9 @@ function Navbar() {
                     : 'nav-menu'}>
                     <li className="nav-item">
                         
-                        <Link to='/portfolio' className='nav-links' > Portfolio </Link></li>
-                    <li className="nav-item"><Link to='/about' className='nav-links' >About Us</Link></li>
-                    <li className="nav-item"><Link to='/contact' className='nav-links' >Contact</Link></li>
+                        <Link to='/portfolio' className='nav-links'onClick={closeMobileMenu} > Portfolio </Link></li>
+                    <li className="nav-item"><Link to='/about' className='nav-links'onClick={closeMobileMenu} >About Us</Link></li>
+                    <li className="nav-item"><Link to='/contact' className='nav-links'onClick={closeMobileMenu} >Contact</Link></li>
 
                 </ul>
             </div>
