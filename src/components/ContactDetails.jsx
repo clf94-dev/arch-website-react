@@ -9,10 +9,10 @@ function ContactDetails() {
     return (
    
             <Grid container direction='row' className='contact-details-cont'>
-                <Grid item lg={6} xs={12} className='title-col'>
+                <Grid item sm={6} xs={12} className='title-col'>
                     <h3>Contact Details</h3>
                 </Grid>
-                <Grid item lg={6} xs={12} className='info-cont'>
+                <Grid item sm={6} xs={12} className='info-cont'>
                     {ContactDetailsInfo.map(info => {
                         return (<ContactInfoCard
                             key={info.index}
