@@ -20,7 +20,9 @@ import {
 } from './HomeIntroImg'
 
 import './styles/App.css'
-
+import AOS from 'aos'
+import 'aos/dist/aos.css';
+AOS.init();
 
 function HomeIntro() {
     const [project,

@@ -5,11 +5,15 @@ import WelcomeD from './images/home/desktop/image-welcome.jpg'
 
 import './styles/App.css'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css';
+AOS.init();
+
 function Welcome() {
     return (
       
-            <Grid container direction='row' className='welcome-cont'>
-                <Grid item md={7} xs={12} className='text-col'>
+            <Grid container direction='row' className='welcome-cont' data-aos='fade-up' data-aos-delay='300'>
+                <Grid item md={7} xs={12} className='text-col' data-aos='fade-right' data-aos-delay='700'>
                     <h1>Welcome</h1>
                     <h3>Welcome to Arch Studio</h3>
                     <p>We have a unique network and skillset to help bring your projects to life.
@@ -21,7 +25,7 @@ function Welcome() {
                         each project. This allows us to work in harmony the surrounding area to create
                         truly stunning projects that will stand the test of time.</p>
                 </Grid>
-                <Grid item md={5} xs={12} className='img-col'>
+                <Grid item md={5} xs={12} className='img-col' data-aos='fade-left' data-aos-delay='500'>
                     <img src={WelcomeD} alt="welcome"/>
                 </Grid>
             </Grid>
