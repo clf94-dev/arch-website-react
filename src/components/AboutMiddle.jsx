@@ -1,11 +1,16 @@
 import {Grid} from '@material-ui/core'
 import React from 'react'
 import MiddleImg from './images/about/desktop/image-heritage.jpg'
+
+import AOS from 'aos'
+import 'aos/dist/aos.css';
+AOS.init();
+
 function AboutMiddle() {
     return (
         <div>
 
-            <Grid container direction='row' className='middle-cont'>
+            <Grid container direction='row' className='middle-cont' data-aos='fade-right'>
                 <Grid item md={6} sm={12} className='text-col'>
                     <h3>Our Heritage</h3>
                     <p>Founded in 2007, we started as a trio of architects. Our complimentary skills
