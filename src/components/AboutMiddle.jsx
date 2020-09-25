@@ -10,7 +10,7 @@ function AboutMiddle() {
     return (
         <div>
 
-            <Grid container direction='row' className='middle-cont' data-aos='fade-right'>
+            <Grid container direction='row' className='middle-cont' data-aos='fade-right' data-aos-delay='300'>
                 <Grid item md={6} sm={12} className='text-col'>
                     <h3>Our Heritage</h3>
                     <p>Founded in 2007, we started as a trio of architects. Our complimentary skills

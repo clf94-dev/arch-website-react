@@ -26,7 +26,7 @@ function TeamAbout() {
                             imgAlt = {
                                 person.imgALT
                             } 
-                            
+                            delay={person.delay}
                             index={person.index}/>)
                         })}
                     </Grid>
