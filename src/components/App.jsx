@@ -6,7 +6,7 @@ import Portfolio from './pages/Portfolio';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
-import HomeIntro from './HomeIntro';
+
 import Footer from './Footer';
 
 function App() {
